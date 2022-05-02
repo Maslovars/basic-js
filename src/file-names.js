@@ -15,7 +15,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  * the output should be ["file", "file(1)", "image", "file(1)(1)", "file(2)"]
  *
  */
-<<<<<<< HEAD:src/st-file-names.js
 export default function renameFiles(names) {
   for (let i = 0; i < names.length; i++) {
     let k = 1;
@@ -27,11 +26,6 @@ export default function renameFiles(names) {
     }
   }
   return names;
-=======
-function renameFiles(/* names */) {
-  throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
->>>>>>> 35961c4664a5f9ed985ef60ff6b2afabe9e9afc6:src/file-names.js
 }
 
 module.exports = {
