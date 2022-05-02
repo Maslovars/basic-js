@@ -23,7 +23,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *  [1, 1, 1]
  * ]
  */
-export default function minesweeper(matrix) {
+function minesweeper(matrix) {
   const result = [];
   const arr = [];
 

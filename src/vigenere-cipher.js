@@ -19,7 +19,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * reverseMachine.decrypt('AEIHQX SX DLLU!', 'alphonse') => '!NWAD TA KCATTA'
  * 
  */
-export default class VigenereCipheringMachine {
+class VigenereCipheringMachine {
 
   constructor(direct = true) {
     this.direct = direct;

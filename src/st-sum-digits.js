@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../extensions/index.js');
+import { NotImplementedError } from '../extensions/index.js';
 
 /**
  * Given a number, replace this number with
@@ -22,7 +22,3 @@ function getSumOfDigits(n) {
 
   return sum;
 }
-
-module.exports = {
-  getSumOfDigits
-};

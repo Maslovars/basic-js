@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * ]) => 3`
  *
  */
-export default function countCats(matrix) {
+function countCats(matrix) {
   return matrix.reduce((res, i) => res.concat(i.filter(el => el === "^^")), []).length;
 }
 

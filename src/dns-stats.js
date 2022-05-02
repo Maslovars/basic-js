@@ -22,7 +22,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * }
  *
  */
-export default function getDNSStats(domains) {
+function getDNSStats(domains) {
   const result = {};
 
   for (let i = 0; i < domains.length; i++) {
